@@ -5,6 +5,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: aquamarine;
 }
 
 /* Header Styling */
@@ -23,23 +24,28 @@ body {
     height: 50px;
     position: fixed;
     bottom: 0;
-    height: 20%;
+    height: 30%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: xx-large;
 }
 
 /* Sun Styling */
 .sun {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: #FFD700;
     border-radius: 50%;
     position: absolute;
     bottom: 10px;
-    left: 47%;
+    left: 46%;
     animation: sunrise-sunset 5s infinite ease-in-out;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: xx-large;
 }
 
 /* Animation */
